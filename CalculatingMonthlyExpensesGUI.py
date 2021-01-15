@@ -263,6 +263,10 @@ def Get_Browser():
 
 #creates Tkinter window
 window = tk.Tk() 
+#set window size
+window.geometry("1100x800")
+#prevent window resize
+window.resizable(False, False)
 
 # defined variables-------‐---‐----‐-------‐-‐------------------------------------------------------------------------------------------
 
